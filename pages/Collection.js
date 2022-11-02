@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import Image from "next/image";
 
 function Collection() {
@@ -18,7 +18,7 @@ function Collection() {
                                     src="/rayban_gozluk.png"
                                     className=""
                                     width="308"
-                                    height="308"
+                                    height="308" alt="s"
                                 />
                                 <span className="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                             </div>
@@ -41,7 +41,7 @@ function Collection() {
                                     src="/victorias_secret.png"
                                     className=""
                                     width="308"
-                                    height="308"
+                                    height="308" alt="s"
                                 />
                                 <span className="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                             </div>
@@ -53,7 +53,7 @@ function Collection() {
                                     <span className="text-primary"><i className="fas fa-star"></i></span>
                                     <span className="text-primary"><i className="fas fa-star"></i></span>
                                 </div>
-                                <p className="text-capitalize my-1"> Victoria's Secret Woman Perfume </p>
+                                <p className="text-capitalize my-1"> Victorias Secret Woman Perfume </p>
                                 <span className="fw-bold">Block Token</span>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ function Collection() {
                                 <Image src="/vision_gozluk.png"
                                     className=""
                                     width="308"
-                                    height="308"
+                                    height="308" alt="s"
                                 />
                                 <span className="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                             </div>
@@ -85,7 +85,7 @@ function Collection() {
                                 <Image src="/pierrecardin_gozluk.png"
                                     className=""
                                     width="308"
-                                    height="308"
+                                    height="308" alt="s"
                                 />
                                 <span className="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                             </div>
@@ -107,7 +107,7 @@ function Collection() {
                                 <Image src="/guerlain_parfum.png"
                                     className=""
                                     width="308"
-                                    height="308"
+                                    height="308" alt="s"
                                 />
                                 <span className="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                             </div>
@@ -129,7 +129,8 @@ function Collection() {
                                 <Image src="/gucci_parfum.png"
                                     className=""
                                     width="308"
-                                    height="308"
+                                    height="308" alt="s"
+                                    
                                 />
                                 <span className="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                             </div>
@@ -151,7 +152,7 @@ function Collection() {
                                 <Image src="/pierrecardin.png"
                                     className=""
                                     width="308"
-                                    height="308"
+                                    height="308" alt="s"
                                 />
                                 <span className="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                             </div>
@@ -173,7 +174,7 @@ function Collection() {
                                 <Image src="/wiseman_parfum.png"
                                     className=""
                                     width="308"
-                                    height="308"
+                                    height="308" alt="s"
                                 />
                                 <span className="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
                             </div>
