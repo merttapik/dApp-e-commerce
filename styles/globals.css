@@ -1,0 +1,50 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* collection */
+.site-color{
+  background: linear-gradient(white, #c4c8da);
+}
+.section-color{
+  background:  #eff0f4;
+}
+.active-product-btn{
+  background-color: var(--pink)!important;
+   background: linear-gradient(white, rgb(30,163,255));
+  border-color: var(--pink)!important;
+}
+.filter-button-group .btn:hover{
+  color: #fff!important;
+}
+.collection-img span{
+  top: 20px;
+  right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
