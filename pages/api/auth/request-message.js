@@ -11,17 +11,16 @@ export default async function handler(req, res) {
     const { address, chain, network } = req.body;
 
     await Moralis.start({ apiKey: process.env.MORALIS_API_KEY });
-
+ 
     try {
+      
         const message = await Moralis.Auth.requestMessage({
             address,
             chain,
             network,
             ...config,
         });
-       /* Moralis.settings.setAPIRateLimit({
-            anonymous:10, authenticated:20, windowMs:60000
-          });*/
+       
 
         res.status(200).json(message);
     } catch (error) {

@@ -3,7 +3,7 @@ import NextAuth from 'next-auth';
 import Moralis from 'moralis';
 import connectDB from '../../../lib/connectDB';
 import Users from '../../../modul/userSchema';
-
+ 
 export default NextAuth({
     providers: [
         CredentialsProvider({
@@ -23,8 +23,11 @@ export default NextAuth({
             async authorize(credentials) {
                 try {
                     const { message, signature } = credentials;
-
+                    Moralis.settings.setAPIRateLimit({
+                        anonymous:10, authenticated:20, windowMs:600000, 
+                      });
                     await Moralis.start({ apiKey: process.env.MORALIS_API_KEY });
+                    
 
                     const { address, profileId, expirationTime } = (await Moralis.Auth.verify({ message, signature, network: 'evm' })).raw;
 
